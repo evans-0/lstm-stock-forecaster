@@ -141,6 +141,10 @@ main(Config(
 
 The script produces a `2 × N` figure (one column per ticker):
 
+![LSTM Stock Forecaster output](lstm_stock_predictions.png)
+
+*GOOGL (2017–2020) and NKE (2018–2020) test sets. The predicted price closely tracks the real price in both cases; directional accuracy sits just above 50%, consistent with near-random walk behaviour in short-horizon equity returns.*
+
 | Row | Content |
 |---|---|
 | Top | Reconstructed open price — real vs predicted |
